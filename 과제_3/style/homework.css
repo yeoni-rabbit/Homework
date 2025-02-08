@@ -1,0 +1,38 @@
+/* a{
+    text-decoration: none;
+    color: black;
+} */
+.nav-item[href="#home"] {
+    font-weight: bold;
+}
+
+.nav-item.special{
+    color: red;
+}
+
+
+.list-section a{
+    color: black;
+}
+
+main{
+    background-color: rgb(170, 170, 170);
+}
+
+#box-1{
+    background-color: yellow;
+    border: 2px solid blue;
+    
+}
+
+.selected{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-text{
+    &:hover{
+        color: aqua;
+    }
+ 
+}

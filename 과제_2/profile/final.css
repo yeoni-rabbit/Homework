@@ -1,0 +1,87 @@
+body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f4f4f4;
+    animation: fadeIn 1.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+    transform: scale(0.9);
+    animation: popUp 0.5s ease-in-out forwards;
+}
+@keyframes popUp {
+    from { transform: scale(0.9); }
+    to { transform: scale(1); }
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+img:hover {
+    transform: scale(1.1);
+}
+h1 {
+    color: #333;
+}
+p {
+    color: #666;
+}
+.social-links a {
+    color: #0073e6;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+.social-links a:hover {
+    color: #ff6600;
+}
+.skills {
+    margin-top: 20px;
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+.skills li {
+    background: #ddd;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.skills li:hover {
+    background: #0073e6;
+    color: white;
+}
+.contact-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #0073e6;
+    color: white;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+}
+.contact-btn:hover {
+    background: #ff6600;
+    transform: scale(1.1);
+}
+.phone {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}

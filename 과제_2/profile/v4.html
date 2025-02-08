@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Self-Introduction</title>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        margin: 50px;
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+        color: white;
+        animation: fadeIn 1.5s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .container {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        max-width: 500px;
+        margin: auto;
+        backdrop-filter: blur(10px);
+        transform: scale(0.9);
+        animation: popUp 0.5s ease-in-out forwards;
+      }
+      @keyframes popUp {
+        from {
+          transform: scale(0.9);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
+      img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        transition: transform 0.3s;
+        border: 3px solid white;
+      }
+      img:hover {
+        transform: scale(1.1);
+      }
+      h1 {
+        color: #fff;
+        font-size: 26px;
+      }
+      p {
+        color: #eee;
+        font-size: 16px;
+      }
+      .social-links a {
+        text-decoration: none;
+        color: #ffcc00;
+        margin: 0 10px;
+        transition: color 0.3s;
+      }
+      .social-links a:hover {
+        color: #ff6600;
+      }
+      .skills {
+        margin-top: 20px;
+      }
+      .skills ul {
+        list-style: none;
+        padding: 0;
+      }
+      .skills li {
+        background: rgba(255, 255, 255, 0.2);
+        display: inline-block;
+        padding: 8px 15px;
+        margin: 5px;
+        border-radius: 5px;
+        transition: background 0.3s;
+      }
+      .skills li:hover {
+        background: #ffcc00;
+        color: #333;
+      }
+      .contact-btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 12px 25px;
+        background: #ffcc00;
+        color: #333;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background 0.3s, transform 0.3s;
+      }
+      .contact-btn:hover {
+        background: #ff6600;
+        transform: scale(1.1);
+      }
+      .phone {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="profile.jpg" alt="Profile Picture" />
+      <h1>Your Name</h1>
+      <p>
+        Hello! I'm a web developer passionate about creating interactive and
+        user-friendly websites. Welcome to my personal page!
+      </p>
+      <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
+      <div class="social-links">
+        <a href="#">LinkedIn</a> | <a href="#">GitHub</a> |
+        <a href="#">Twitter</a> |
+        <a href="#">Instagram</a>
+      </div>
+      <p class="phone">📞 Phone: (123) 456-7890</p>
+      <a href="mailto:your.email@example.com" class="contact-btn">Contact Me</a>
+    </div>
+  </body>
+</html>
