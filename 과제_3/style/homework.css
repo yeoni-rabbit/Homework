@@ -22,6 +22,7 @@ main{
 #box-1{
     background-color: yellow;
     border: 2px solid blue;
+    box-sizing: border-box;
     
 }
 

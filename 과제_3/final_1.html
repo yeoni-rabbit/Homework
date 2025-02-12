@@ -8,12 +8,18 @@
     <link rel="stylesheet" href="./final_1.css" />
   </head>
   <body>
-    <div class="container">
+
+   
+
+
+    <ul class="pp">
+     <li>
+      <div class="container">
       <img src="./visual.png" alt="자기소개_햄뿡이" />
-      <h1>SOYEON</h1>
-      <p>안녕하세요 햄뿡이와 빵빵이를 좋아하는 99년생 김소연입니다!</p>
+      <h1 class="header1">SOYEON</h1>
+      <p class="maintext">안녕하세요 햄뿡이와 빵빵이를 좋아하는 99년생 김소연입니다!</p>
       <div class="skills">
-        <h2>Skills</h2>
+        <h2 class="header2">Skills</h2>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -23,13 +29,42 @@
         </ul>
       </div>
       <div class="social-links">
-        <a href="https://www.instagram.com/">Instagram</a> |
-        <a href="github.com">GitHub</a> |
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="github.com">GitHub</a> 
         <a href="google.com">Mail</a>
       </div>
+      <div></div>
 
       <p class="phone">📞 Phone: 010-2764-4818</p>
       <a href="mailto:soyeon4818@gmail.com" class="contact-btn">Contact Me</a>
+      </div>
+    </li>
+    <li>
+      <div class="inner">
+        <h2 class="header2">content</h2>
+        <ul>
+          <li class="innercontent">DIPPING</li>
+          <li class="innercontent">MARPLE SHOP</li>
+          <li class="innercontent">CROWCANYON</li>
+          <li class="innercontent">GROVE</li>
+        </ul>
+      </div>
+    </li>
+      
+
+  </ul>
+
+  <input type="checkbox" id="popup-toggle">
+    <div class="popup-overlay" id="popupOverlay">
+    <div class="popup">
+        <h2 class="popscr">어서오세용</h2>
+        <p class="popuppp">디자이너 김소연의 포트폴리오 전시회에 오신 것을 환영합니다!</p>
+        <!-- <button class="close-btn" onclick="closePopup()">닫기</button> -->
+        <label for="popup-toggle" class="close-btn">닫기</label>
     </div>
+</div>
+    
+
+    
   </body>
 </html>
