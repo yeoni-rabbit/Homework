@@ -61,11 +61,11 @@ ul{
 }   */
 
 
-.popscr{
+.popuptitle{
     margin: 20px;
 }
 
-.popuppp{
+.popuptext{
     margin: 30px;
     color: #FCFCFD;
 }
@@ -85,8 +85,8 @@ ul{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
     margin: auto;
+    max-width: 500px;
     transform: scale(0.9);
     animation: popUp 0.5s ease-in-out forwards;
 }
@@ -167,7 +167,7 @@ img:hover {
 
 .contact-btn {
     display: inline-block;
-    margin-top: 20px;
+    margin-block-start: 20px;
     padding: 10px 20px;
     background: #0073e6;
     color: white;
@@ -181,7 +181,7 @@ img:hover {
 }
 
 .phone {
-    margin-top: 20px;
+    margin-block-start: 20px;
     font-size: 18px;
     color: #333;
 }
@@ -200,6 +200,6 @@ img:hover {
     background-color: #232529;
     border-radius: 5px;
     max-width: 500px;
-    padding:50px 100px;
+    padding:100px 200px;
     margin: 10px;
 }
